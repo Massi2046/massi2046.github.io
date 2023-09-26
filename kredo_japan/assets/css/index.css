@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: serif;
+}
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+p {
+    font-family: serif;
+}
+.wrapper {
+        width: 100%;
+        margin: auto;
+}
+
+body {
+    background-color: #eee;
+}
+
+/* nav */
+.nav {
+    overflow: hidden;
+    width: 85%;
+    margin: 1em auto;
+    text-align: center;
+}
+.nav img {
+    width: 120px;
+    padding: 0 10%;
+}
+.nav ul {
+    width:70%;
+    margin: 0 auto;
+}
+.nav li {
+    display: inline-block;
+    font-weight: 600;
+    margin: 0 auto;
+    padding: 0 5%;
+}
+.nav li a {
+    font-family: serif;
+    color: #312a26;
+    font-weight: 600;
+}
+
+
+/* bannar */
+.banner {
+    background-image: url(../images/atf.jpg);
+    background-size: cover;
+    background-position: bottom;
+    width: 100%;
+    height: 600px;
+    text-align: right;
+    margin-bottom: 50px;
+}
+.banner h1 {
+    color: #ffffff;
+}
+.banner a, .about a {
+    text-decoration: none;
+    display: inline-block;
+    background-color: #c1a87d;
+    color:#fff;
+    font-family: 'serif;
+    font-weight: normal;
+    margin-top: 1em;
+    padding: 15px 30px;
+    border-radius: 5px;
+}
+ 
+.banner-text {
+    position: absolute;
+    top: 30%;
+    right: 5%;
+    width: 50%;
+}
+
+.banner-text h2 {
+    font-size: 3em;
+    color: #ffffff;   
+}
+.banner-text p {
+    color: #fff;
+}
+
+/* About */
+.about {
+    width: 1280px;
+    margin: 0 auto 50px auto;
+}
+.about_2 a {
+    position: absolute;
+    right:4%;
+}
+.about_1, .about_2 {
+    height: 200px;
+    width: 80%;
+    margin: 0 auto 20px auto;
+    position: relative;
+}
+
+.about img {
+    width: 300px;
+    height: auto;
+    overflow: hidden;
+}
+
+.about_1 img {
+    float: left;
+}
+.about_1 p {
+    float: left;
+    padding-left: 2%;
+    width: 70%;
+}
+.about_2 img {
+    float: left;
+}
+.about_2 p {
+    float: left;
+    padding-right: 2%;
+    width: 70%;
+    position: relative;
+}
+
+
+/* booking */
+.booking {
+    width:100%;
+    background-color:#c1a87d;
+
+}
+.form-group {
+    margin-top: 2em;
+    float: left;
+    width: 40.5%;
+    border-radius: 5px;
+    height: 450px;
+    padding: 1em 0 0 2em;
+}
+
+.form-group:nth-child(1) {
+    margin-right: 15%;
+} 
+
+form {
+    overflow: auto;
+}
+form input, form label, form select, form textarea {
+    display: inline-block;
+    font-family: serif;
+    padding: 1em;
+    margin-bottom: 1em;
+    font-weight: normal;
+    border-radius: 5px;
+}
+form input[type="text"], form input[type="email"], form input[type="number"], form input[type="date"], textarea, .form-group #guest {
+    width: 59.5%;
+}
+form label {
+    font-weight: 700;
+    margin-bottom: 0;
+    padding-bottom: 0.5em;
+    padding-left: 0;
+    width: 39.5%;    
+}
+form input[type="submit"] {
+    background-color: #000;
+    color: #ffffff;
+    font-weight: 700;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.res-time * {
+    width: auto;
+}
+.form p {
+    margin: 1em;
+    text-align: center;
+    font-weight: 700;
+}
+form h3 {
+    text-align: center;
+    margin: auto;
+}
+.form-group h3 {
+    margin-top: 1em;
+    
+}
+.BList ul {
+    width: 100%;
+    padding-left:0
+}
+
+.BList li {
+    width: 24%;
+    text-decoration: #c1a87d;
+    list-style: none;
+    float: left;
+    text-align: center;
+    margin: 1px;
+    padding: 10px 0;
+}
+
+.BList .BL_L01 li {
+    background-color: #000;
+    color: #ffffff;
+}
+.BList .BL_L03 li, .BList .BL_L05 li {
+    background-color: #ccc;
+}
+.BList li.rsvd {
+    background-color: #5ede6f;
+}
+.BList li.pen {
+    background-color: #d69507;
+}
+
+
+/* Footer */
+.footer {
+    text-align: center;
+    font-weight: 700;
+    margin: 20px auto;
+}
